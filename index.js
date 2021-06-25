@@ -10,7 +10,7 @@ class ArgError extends Error {
 	}
 }
 
-function arg(opts, {argv = process.argv.slice(2), permissive = false, stopAtPositional = false} = {}) {
+function arg(opts, {argv = [], permissive = false, stopAtPositional = false} = {}) {
 	if (!opts) {
 		throw new ArgError('argument specification object is required', 'ARG_CONFIG_NO_SPEC');
 	}
