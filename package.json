@@ -1,11 +1,11 @@
 {
-  "name": "arg",
+  "name": "@dhruvkb/arg",
   "version": "5.0.0",
   "description": "Unopinionated, no-frills CLI argument parser",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "vercel/arg",
-  "author": "Josh Junon <junon@wavetilt.com>",
+  "repository": "dhruvkb/arg",
+  "author": "Dhruv Bhanushali <dhruv_b@live.com>",
   "license": "MIT",
   "files": [
     "index.js",
